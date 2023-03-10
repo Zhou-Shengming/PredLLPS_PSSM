@@ -18,3 +18,15 @@ Your sequences must be submitted in fasta format and the csv file of the AB PSSM
 - Biopython==1.78
 - scikit-learn==0.20.1
 - tensorflow==2.3.0
+
+# Usage
+## parameters
+
+'--input_fasta_file'   Input sequence fasta files.
+
+'--input_AB_PSSM_csv_file'  Input the AB PSSM feature file of the sequence obtained in PUSSUM. The file format should be csv.
+
+## example
+```
+python main.py --input_fasta_file example.fasta --input_AB_PSSM_csv_file example_ab_pssm.csv
+```
