@@ -63,7 +63,7 @@ def judging_sample_label(y_predict):
     labels = []
 
     for i in range(len(y_predict)):
-        if y_predict[i] > 0.5:
+        if y_predict[i] >= 0.5:
             label = [1]
             labels.append(label)
         else:
